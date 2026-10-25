@@ -110,6 +110,11 @@
     "sha256": "bdd92b2311a06eba1751044eea38c40887e370761420c28915967fee5742b89b"
   },
   {
+    "path": "models/full/hw09/reuters-lstm.keras",
+    "bytes": 17038168,
+    "sha256": "8761b62f52c1b54c661bd9d93724cbb4bff3b7d3da5d87a984dbc8ba63e9ffe7"
+  },
+  {
     "path": "models/full/hw12/wine-pipeline.joblib",
     "bytes": 2385,
     "sha256": "717b6fc617b060bae82c4038b7730864d3db3f2f902bb385c7f8850f0036f6a4"
@@ -128,5 +133,10 @@
     "path": "models/preview/hw09/reuters-lstm.keras",
     "bytes": 17038168,
     "sha256": "e3b463e52eda0054b5910e912d5439238e7740c91027c36a58800e9d7fb66abb"
+  },
+  {
+    "path": "models/README.md",
+    "bytes": 2997,
+    "sha256": "aa66db83b378153d11ae5520de1297e886338cc41c18cf48fa825da943ed90c0"
   }
 ]

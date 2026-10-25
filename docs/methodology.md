@@ -49,6 +49,8 @@ The archived transformer outputs both report about 90.9% accuracy and 0.476 macr
 
 The portable benchmark explicitly includes a majority baseline, macro F1 and a confusion matrix. It records which class is missed and the validity prevalence. A stronger future study would group splits by logical form and assess sensitivity across seeds and prompts. Fine-tuning a classifier is not RLHF, reward modeling or a demonstration of general reasoning capability.
 
+In the completed full portable run, both models predicted the invalid class for all 154 test examples, exactly matching the majority baseline: 140 correct invalid cases and 14 missed valid cases. The 0.9091 accuracy therefore accompanies zero valid-class recall. Useful next experiments would address the training imbalance, select using validation macro F1 and test on held-out logical forms. Those experiments are proposed follow-up work, not claimed improvements in this package.
+
 ## 5. Preprocessing and representation learning
 
 Homework 7's original chi-square exercise treated raw share counts as class labels. The portable news selector uses the regression-appropriate F statistic and only training rows. This remains a simple univariate association ranking; it does not establish causality or automatically improve a predictive model.

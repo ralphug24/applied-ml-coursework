@@ -6,6 +6,8 @@ A connected collection of ten course assignments, from data preparation and clus
 
 **[Portfolio case study](https://ralphugboko.dev/projects?discipline=school-projects&project=applied-ml-coursework)** · **[Learning and methodology guide](docs/methodology.md)** · **[Assignment map](docs/assignment-map.md)**
 
+**[Readable experiment results](https://ralphugboko.dev/assets/coursework/applied-ml/run-results.html)** summarizes the completed full runs for all ten tasks, with preview execution records kept separate. Regression and waveform notebooks also retain executed cells and current outputs.
+
 ## What I learned
 
 I practiced preparing data, fitting and comparing models, choosing an objective for a task, and interpreting results beyond a single score. The coursework included guided exercises and supplied starter code. My submissions document my completed exercises and interpretations; the portable code in this repository makes the workflows easier to run and inspect.
@@ -46,7 +48,7 @@ python coursework.py hw10 --profile preview
 python coursework.py hw10 --profile full
 ```
 
-The transformer run downloads public pretrained weights and the exercise CSV. A GPU is useful for full fine-tuning, but the code also supports CPU. Downloads are cached; no account token is embedded in the code. The two-step preview only demonstrates execution and must not be interpreted as a model-quality benchmark. Transformer checkpoints are saved locally by the run; they are excluded from Git because of their size. The code, original saved output and run metrics remain inspectable in the repository.
+The transformer run downloads public pretrained weights and the exercise CSV. A GPU is useful for full fine-tuning, but the code also supports CPU. Downloads are cached; no account token is embedded in the code. The two-step preview only demonstrates execution and must not be interpreted as a model-quality benchmark. Transformer checkpoints are saved locally by the run and distributed through the optional [model release](https://github.com/ralphug24/applied-ml-coursework/releases/tag/v1.0.0). See the [saved-model guide](models/README.md) for loading examples.
 
 The same tasks can be opened in `notebooks/`. Each notebook imports the documented task implementation and shows its saved report and figures after execution. `python coursework.py classical` runs the non-neural collection, including public dataset downloads. `all` includes every task and can require substantial time and disk space.
 

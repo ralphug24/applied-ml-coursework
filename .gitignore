@@ -3,6 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .cache/
 *.log
+releases/
 data/downloads/
 reports/local/
 models/**/transformer-*/
