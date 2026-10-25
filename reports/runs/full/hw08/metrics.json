@@ -1,0 +1,65 @@
+{
+  "train_rows": 8000,
+  "validation_rows": 2000,
+  "epochs": 50,
+  "batch_size": 32,
+  "inputs": 1000,
+  "outputs": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "first_layer_parameters": 128128,
+  "total_parameters": 138596,
+  "architecture": [
+    1000,
+    128,
+    64,
+    32,
+    4
+  ],
+  "objective": "Mean absolute error on four generating parameters",
+  "optimizer": "Adam",
+  "evaluation": {
+    "in_distribution": {
+      "rows": 2000,
+      "parameter_mae": 0.02745855785906315,
+      "per_parameter_mae": [
+        0.03159097209572792,
+        0.032544925808906555,
+        0.00806642696261406,
+        0.03763195499777794
+      ]
+    },
+    "extended": {
+      "rows": 9,
+      "parameter_mae": 0.6278258562088013,
+      "per_parameter_mae": [
+        0.4840151369571686,
+        0.6379191875457764,
+        0.49825260043144226,
+        0.8911162614822388
+      ]
+    }
+  },
+  "direction": "1000 waveform samples -> four parameters; this is not a general Fourier transform.",
+  "task": "hw08",
+  "profile": "full",
+  "run_at_utc": "2026-10-25T00:54:19.654977+00:00",
+  "elapsed_seconds": 40.925804499998776,
+  "seed": 42,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_threads": 2,
+  "code_sha256": "c359fc4710bd080c997c1b4ea2ff1c74865a7fe6bc526b55424c9334f4ae53c2"
+}

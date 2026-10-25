@@ -1,0 +1,22 @@
+[
+  {
+    "cell": 3,
+    "text": "Downloading data from https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz\n169001437/169001437 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 14s 0us/step\n"
+  },
+  {
+    "cell": 3,
+    "text": "/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.\n  super().__init__(activity_regularizer=activity_regularizer, **kwargs)\n"
+  },
+  {
+    "cell": 3,
+    "text": "Epoch 1/5\n782/782 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 17s 13ms/step - accuracy: 0.0445 - loss: 4.2939 - val_accuracy: 0.1796 - val_loss: 3.4771\nEpoch 2/5\n782/782 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 5s 6ms/step - accuracy: 0.1809 - loss: 3.4344 - val_accuracy: 0.2739 - val_loss: 3.0055\nEpoch 3/5\n782/782 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 5s 7ms/step - accuracy: 0.2475 - loss: 3.0654 - val_accuracy: 0.3018 - val_loss: 2.7783\nEpoch 4/5\n782/782 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 5s 6ms/step - accuracy: 0.2938 - loss: 2.8273 - val_accuracy: 0.3435 - val_loss: 2.6473\nEpoch 5/5\n782/782 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 5s 7ms/step - accuracy: 0.3234 - loss: 2.6731 - val_accuracy: 0.3715 - val_loss: 2.5018\nTest accuracy (CIFAR-100): 0.3715\n"
+  },
+  {
+    "cell": 6,
+    "text": "Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/reuters.npz\n2110848/2110848 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 1s 1us/step\n"
+  },
+  {
+    "cell": 6,
+    "text": "Epoch 1/5\n127/127 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 92s 674ms/step - accuracy: 0.3819 - loss: 2.7142 - val_accuracy: 0.4705 - val_loss: 2.0244\nEpoch 2/5\n127/127 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 140s 663ms/step - accuracy: 0.5140 - loss: 1.8769 - val_accuracy: 0.5584 - val_loss: 1.8601\nEpoch 3/5\n127/127 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 84s 663ms/step - accuracy: 0.5504 - loss: 1.7680 - val_accuracy: 0.5451 - val_loss: 1.7619\nEpoch 4/5\n127/127 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 84s 665ms/step - accuracy: 0.5843 - loss: 1.5954 - val_accuracy: 0.5806 - val_loss: 1.7007\nEpoch 5/5\n127/127 \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 141s 659ms/step - accuracy: 0.6088 - loss: 1.5147 - val_accuracy: 0.6118 - val_loss: 1.6125\nTest accuracy (Reuters): 0.6060\n"
+  }
+]

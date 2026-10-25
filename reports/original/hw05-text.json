@@ -1,0 +1,66 @@
+[
+  {
+    "cell": 2,
+    "text": "Mounted at /content/drive\n/content/drive/MyDrive\n"
+  },
+  {
+    "cell": 26,
+    "text": "For n_clusters = 3, the average silhouette_score is 0.4269854455072775.\n"
+  },
+  {
+    "cell": 28,
+    "text": "For n_clusters = 3, the average silhouette_score is 0.4270386533100921.\n\n============================================================\nCOMPARISON OF CLUSTERING RESULTS:\n3 clusters silhouette score: 0.4270\n3 clusters silhouette score: 0.4270\n\u2713 3 clusters provides BETTER clustering (higher silhouette score)\n"
+  },
+  {
+    "cell": 49,
+    "text": "--2025-10-01 00:12:57--  https://raw.githubusercontent.com/fgnt/mnist/master/train-images-idx3-ubyte.gz\nResolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.109.133, ...\nConnecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 9912422 (9.5M) [application/octet-stream]\nSaving to: \u2018train-images-idx3-ubyte.gz\u2019\n\ntrain-images-idx3-u 100%[===================>]   9.45M  16.6MB/s    in 0.6s    \n\n2025-10-01 00:12:58 (16.6 MB/s) - \u2018train-images-idx3-ubyte.gz\u2019 saved [9912422/9912422]\n\n--2025-10-01 00:12:58--  https://raw.githubusercontent.com/fgnt/mnist/master/train-labels-idx1-ubyte.gz\nResolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...\nConnecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 28881 (28K) [application/octet-stream]\nSaving to: \u2018train-labels-idx1-ubyte.gz\u2019\n\ntrain-labels-idx1-u 100%[===================>]  28.20K  --.-KB/s    in 0.005s  \n\n2025-10-01 00:12:58 (5.31 MB/s) - \u2018train-labels-idx1-ubyte.gz\u2019 saved [28881/28881]\n\n"
+  },
+  {
+    "cell": 50,
+    "text": "Cloning into 'image-clustering'...\nremote: Enumerating objects: 102, done.\u001b[K\nremote: Total 102 (delta 0), reused 0 (delta 0), pack-reused 102 (from 1)\u001b[K\nReceiving objects: 100% (102/102), 7.67 MiB | 13.47 MiB/s, done.\nResolving deltas: 100% (48/48), done.\n"
+  },
+  {
+    "cell": 53,
+    "text": "total 8.0K\ndrwx------ 5 root root 4.0K Sep 30 23:39 drive\ndrwxr-xr-x 1 root root 4.0K Sep 29 13:37 sample_data\n-rw-r--r-- 1 root root    0 Oct  1 00:04 train-images-idx3-ubyte.gz\n-rw-r--r-- 1 root root    0 Oct  1 00:04 train-labels-idx1-ubyte.gz\ntotal 360M\n-rw------- 1 root root 133M Jul 20 19:27  20250720-1922-14.5835650.mp4\ndrwx------ 2 root root 4.0K Sep  2 18:30 'Colab Notebooks'\ndrwx------ 2 root root 4.0K Dec  7  2024 'Grad School'\ndrwx------ 6 root root 4.0K Oct  1 00:13  image-clustering\n-rw------- 1 root root  176 Mar 10  2025 'McNeese-Demographic Information Survey .gform'\n-rw------- 1 root root  43K Sep 30 20:30  multishapes.csv\n-rw------- 1 root root  176 Jan 25  2025 'Notes - Team 3 PD 1 - Next Steps Meeting.gdoc'\ndrwx------ 2 root root 4.0K Dec  7  2024  Others\n-rw------- 1 root root 163M Jul 21 17:18  Prototype_Video.mp4\n-rw------- 1 root root  65K Nov  6  2023 'Ralph CITI Completion Certificate Aug 2023 - Aug 2025.pdf'\n-rw------- 1 root root 703K Jan 11  2025 'Students with disabilities and Section 1983 of the Civil Rights Act of 1871.pptx'\n-rw------- 1 root root  176 Jul 21 14:08 'Usability Questionnaire for Redesign of a Remotely Operated Vehicle (ROV) Simulation .gform'\n-rw------- 1 root root  176 Jul 24 16:25 'Usability Questionnaire for Redesign of a Remotely Operated Vehicle (ROV) Simulation  (Responses).gsheet'\n-rw------- 1 root root  50M Aug 26 14:01  ViPr-App.zip\n-rw------- 1 root root 5.1M Jul 23 17:08 'What Do We Design for When We Design Smart Buildings (1).pdf'\n-rw------- 1 root root 5.1M Jul 23 17:07 'What Do We Design for When We Design Smart Buildings (2).pdf'\n-rw------- 1 root root 5.1M Jul 23 17:08 'What Do We Design for When We Design Smart Buildings.pdf'\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 0\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 1\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 2\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 3\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 4\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 5\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 6\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 7\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 8\n"
+  },
+  {
+    "cell": 60,
+    "text": "Cluster: 9\n"
+  }
+]

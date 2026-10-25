@@ -1,0 +1,55 @@
+{
+  "shapes_rows": 1100,
+  "shape_algorithms": {
+    "K-means": {
+      "clusters": 3,
+      "noise_rows": 0,
+      "silhouette_excluding_noise": 0.4269854455072775
+    },
+    "Ward": {
+      "clusters": 3,
+      "noise_rows": 0,
+      "silhouette_excluding_noise": 0.4182759392486783
+    },
+    "DBSCAN": {
+      "clusters": 5,
+      "noise_rows": 25,
+      "silhouette_excluding_noise": 0.2233017603518736
+    }
+  },
+  "digit_rows": 1000,
+  "digit_search": [
+    {
+      "k": 3,
+      "inertia": 47409.89453125,
+      "silhouette": 0.05624542757868767
+    },
+    {
+      "k": 5,
+      "inertia": 43852.5078125,
+      "silhouette": 0.06321840733289719
+    },
+    {
+      "k": 10,
+      "inertia": 39557.203125,
+      "silhouette": 0.0516153983771801
+    }
+  ],
+  "scope": "Unsupervised structure; silhouette is not classification accuracy. MNIST search uses a seeded subset and sampled silhouette for bounded compute.",
+  "task": "hw05",
+  "profile": "preview",
+  "run_at_utc": "2026-10-25T00:50:40.995985+00:00",
+  "elapsed_seconds": 3.205019799999718,
+  "seed": 42,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_threads": 2,
+  "code_sha256": "42ee63a753948811615fba81958e885c954e8dcf858726563d3f502c0e3b4474"
+}

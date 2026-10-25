@@ -1,0 +1,18 @@
+[
+  {
+    "cell": 1,
+    "text": "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n/content/drive/MyDrive/Colab-Notebooks/CPSC-6300/Homework-7\n"
+  },
+  {
+    "cell": 2,
+    "text": " Algerian_forest_fires_dataset_UPDATE-1.csv\n housing.csv\n Lab6_Assignment.ipynb\n Lab_Outlier_Detection__Model_Selection__Cross_Validation.ipynb\n OnlineNewsPopularity.csv\n'UGBOKO-Homework 7 Submission.ipynb'\n"
+  },
+  {
+    "cell": 14,
+    "text": "\nTop 10 Features based on Chi-Square Test:\n                          Feature   Chi2 Score\n1   data_channel_is_entertainment  1677.155035\n4           data_channel_is_world  1670.875085\n9                      is_weekend  1464.377407\n2          data_channel_is_socmed  1333.938100\n0       data_channel_is_lifestyle  1327.712480\n7             weekday_is_saturday  1298.312137\n8               weekday_is_sunday  1169.630312\n6            weekday_is_wednesday  1162.946294\n5               weekday_is_monday  1151.027944\n3            data_channel_is_tech  1140.236808\n"
+  },
+  {
+    "cell": 28,
+    "text": "\nModel Comparison Results:\nLogistic Regression: 0.9726\nLinear SVC: 0.9726\nRidge Classifier: 0.9589\n"
+  }
+]

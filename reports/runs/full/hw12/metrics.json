@@ -1,0 +1,119 @@
+{
+  "rows": 6497,
+  "train_rows": 5197,
+  "test_rows": 1300,
+  "cross_validation": {
+    "Majority baseline": {
+      "accuracy": 0.6026552898497076,
+      "macro_f1": 0.25069033040238803
+    },
+    "All features": {
+      "accuracy": 0.7123369364033463,
+      "macro_f1": 0.4656564590915762
+    },
+    "PCA 2": {
+      "accuracy": 0.6093903161323758,
+      "macro_f1": 0.36263493616195674
+    },
+    "PCA 10": {
+      "accuracy": 0.7117594580587843,
+      "macro_f1": 0.4655259406856076
+    },
+    "SVD 10": {
+      "accuracy": 0.7117594580587843,
+      "macro_f1": 0.4655259406856076
+    }
+  },
+  "selected_model": "All features",
+  "selection_rule": "Training-only 5-fold macro F1",
+  "test": {
+    "accuracy": 0.7076923076923077,
+    "macro_f1": 0.4628068696067684,
+    "confusion_matrix": [
+      [
+        272,
+        205,
+        0
+      ],
+      [
+        135,
+        648,
+        0
+      ],
+      [
+        1,
+        39,
+        0
+      ]
+    ],
+    "report": {
+      "0": {
+        "precision": 0.6666666666666666,
+        "recall": 0.570230607966457,
+        "f1-score": 0.6146892655367232,
+        "support": 477.0
+      },
+      "1": {
+        "precision": 0.726457399103139,
+        "recall": 0.8275862068965517,
+        "f1-score": 0.7737313432835821,
+        "support": 783.0
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 40.0
+      },
+      "accuracy": 0.7076923076923077,
+      "macro avg": {
+        "precision": 0.4643746885899352,
+        "recall": 0.4659389382876696,
+        "f1-score": 0.4628068696067684,
+        "support": 1300.0
+      },
+      "weighted avg": {
+        "precision": 0.6821662642290445,
+        "recall": 0.7076923076923077,
+        "f1-score": 0.691568016501586,
+        "support": 1300.0
+      }
+    }
+  },
+  "pca_explained_variance_ratio": [
+    0.316576185188068,
+    0.21142542254591784,
+    0.130833285269161,
+    0.08099387089535291,
+    0.06032249404689907,
+    0.051027677428502,
+    0.0450490069295488,
+    0.04128529514842125,
+    0.029375328319517554,
+    0.02165741622768231,
+    0.009723936371390218,
+    0.00173008162953916
+  ],
+  "objectives": "PCA maximizes retained variance; classification uses multinomial log loss.",
+  "scope": "Explained variance is not predictive accuracy; scaling and reduction are fitted inside each training fold.",
+  "task": "hw12",
+  "profile": "full",
+  "run_at_utc": "2026-10-25T01:02:47.131090+00:00",
+  "elapsed_seconds": 2.253956799999287,
+  "seed": 42,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "torch": "2.8.0",
+    "transformers": "4.57.1"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_threads": 2,
+  "code_sha256": "c359fc4710bd080c997c1b4ea2ff1c74865a7fe6bc526b55424c9334f4ae53c2"
+}

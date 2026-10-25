@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+*.log
+data/downloads/
+reports/local/
+models/**/transformer-*/

@@ -1,0 +1,81 @@
+{
+  "development_rows": 450,
+  "test_rows": 56,
+  "validation": {
+    "subset": {
+      "mse": 25.74988322105276,
+      "rmse": 5.074434275961485,
+      "mae": 3.4609123517971834,
+      "r2": 0.7228632435410236
+    },
+    "all": {
+      "mse": 21.502966486573325,
+      "rmse": 4.637129121188381,
+      "mae": 3.19159156710617,
+      "r2": 0.7685712849577978
+    }
+  },
+  "cross_validation": {
+    "Mean baseline": {
+      "mean_mse": 90.68137260783416,
+      "std_mse": 23.17800517829348,
+      "mean_r2": -0.02411750898781053
+    },
+    "Linear regression": {
+      "mean_mse": 24.93697932198533,
+      "std_mse": 5.544917367356753,
+      "mean_r2": 0.7031386102852112
+    },
+    "Ridge": {
+      "mean_mse": 24.92826625747468,
+      "std_mse": 5.59393345479687,
+      "mean_r2": 0.7035439114936176
+    },
+    "Lasso": {
+      "mean_mse": 25.417669924287075,
+      "std_mse": 6.7303525492035075,
+      "mean_r2": 0.702130524508578
+    },
+    "Random Forest": {
+      "mean_mse": 11.655138028888882,
+      "std_mse": 5.456088955856714,
+      "mean_r2": 0.8682107159624648
+    },
+    "Polynomial degree 2": {
+      "mean_mse": 14.793840068074122,
+      "std_mse": 9.149842833257676,
+      "mean_r2": 0.8193724082507856
+    }
+  },
+  "selection_rule": "Lowest mean MSE on the same shuffled 10-fold split for all candidates",
+  "selected_model": "Random Forest",
+  "test": {
+    "mse": 12.546852107142849,
+    "rmse": 3.5421535973391736,
+    "mae": 2.590642857142856,
+    "r2": 0.3132634417490239
+  },
+  "objective": "Squared error for OLS/forest; L2 or L1 penalties for Ridge/Lasso.",
+  "scope": "Historical supplied classroom dataset, not an operational housing valuation model.",
+  "task": "hw06",
+  "profile": "full",
+  "run_at_utc": "2026-10-25T01:07:24.411202+00:00",
+  "elapsed_seconds": 5.3050876000015705,
+  "seed": 42,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "datasets": "4.3.0"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_threads": 2,
+  "code_sha256": "c359fc4710bd080c997c1b4ea2ff1c74865a7fe6bc526b55424c9334f4ae53c2"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "cell": 3,
+    "text": "(450, 14)\n      CRIM    ZN  INDUS  CHAS    NOX     RM   AGE     DIS  RAD    TAX  \\\n0  0.00632  18.0   2.31     0  0.538  6.575  65.2  4.0900    1  296.0   \n1  0.02731   0.0   7.07     0  0.469  6.421  78.9  4.9671    2  242.0   \n2  0.02729   0.0   7.07     0  0.469  7.185  61.1  4.9671    2  242.0   \n3  0.03237   0.0   2.18     0  0.458  6.998  45.8  6.0622    3  222.0   \n4  0.06905   0.0   2.18     0  0.458  7.147  54.2  6.0622    3  222.0   \n\n   PTRATIO       B  LSTAT  MEDV  \n0     15.3  396.90   4.98  24.0  \n1     17.8  396.90   9.14  21.6  \n2     17.8  392.83   4.03  34.7  \n3     18.7  394.63   2.94  33.4  \n4     18.7  396.90   5.33  36.2  \nIndex(['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'TAX',\n       'PTRATIO', 'B', 'LSTAT', 'MEDV'],\n      dtype='object')\n"
+  },
+  {
+    "cell": 4,
+    "text": "\nMissing values in training data:\n0.00632  18.00   2.310  0  0.5380  6.5750  65.20  4.0900   1  296.0  15.30 396.90   4.98  24.00    0\ndtype: int64\n"
+  },
+  {
+    "cell": 6,
+    "text": "Training set shape: (360, 13)\nValidation set shape: (90, 13)\n"
+  },
+  {
+    "cell": 8,
+    "text": "Subset Model MSE: 25.75\nSubset Model R\u00b2: 0.723\n"
+  },
+  {
+    "cell": 10,
+    "text": "All Features MSE: 21.5\nAll Features R\u00b2: 0.769\n"
+  },
+  {
+    "cell": 12,
+    "text": "Average CV MSE: 38.32\nAverage CV R\u00b2: 0.348\n"
+  },
+  {
+    "cell": 13,
+    "text": "Average Ridge R\u00b2: 0.387\nAverage Lasso R\u00b2: 0.397\n"
+  },
+  {
+    "cell": 17,
+    "text": "LinearRegression: Average MSE = 24.94, Average R\u00b2 = 0.703\nRidge: Average MSE = 25.09, Average R\u00b2 = 0.703\nLasso: Average MSE = 25.93, Average R\u00b2 = 0.695\nRandomForest: Average MSE = 11.67, Average R\u00b2 = 0.868\nPoly2_LinearRegression: Average MSE = 14.79, Average R\u00b2 = 0.819\n"
+  },
+  {
+    "cell": 20,
+    "text": "Test Set MSE: 12.54685210714285\nTest Set R\u00b2: 0.31326344174902376\n"
+  }
+]

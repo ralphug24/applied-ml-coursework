@@ -1,0 +1,26 @@
+[
+  {
+    "cell": 3,
+    "text": "/content/sample_data\n"
+  },
+  {
+    "cell": 10,
+    "text": "(6000, 10)\n"
+  },
+  {
+    "cell": 12,
+    "text": "2\n2\n477\n2\n2\n7\n62\n0\n2\n2\n"
+  },
+  {
+    "cell": 19,
+    "text": "0\n"
+  },
+  {
+    "cell": 34,
+    "text": "young-adult\nscience-fiction\ndystopia\nfantasy\nscience-fiction\nromance\nadventure\nbook-club\nyoung-adult\nteen\napocalyptic\npost-apocalyptic\naction\n"
+  },
+  {
+    "cell": 54,
+    "text": "/tmp/ipython-input-2334179269.py:2: FutureWarning: The provided callable <function mean at 0x7a9ccd36c9a0> is currently using SeriesGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string \"mean\" instead.\n  authors = authors[['rating','name','author']].groupby('author').agg({'rating' : np.mean,\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "cell": 1,
+    "text": "Requirement already satisfied: gdown in /usr/local/lib/python3.12/dist-packages (5.2.0)\nRequirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.12/dist-packages (from gdown) (4.13.5)\nRequirement already satisfied: filelock in /usr/local/lib/python3.12/dist-packages (from gdown) (3.20.0)\nRequirement already satisfied: requests[socks] in /usr/local/lib/python3.12/dist-packages (from gdown) (2.32.4)\nRequirement already satisfied: tqdm in /usr/local/lib/python3.12/dist-packages (from gdown) (4.67.1)\nRequirement already satisfied: soupsieve>1.2 in /usr/local/lib/python3.12/dist-packages (from beautifulsoup4->gdown) (2.8)\nRequirement already satisfied: typing-extensions>=4.0.0 in /usr/local/lib/python3.12/dist-packages (from beautifulsoup4->gdown) (4.15.0)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/dist-packages (from requests[socks]->gdown) (3.4.4)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/dist-packages (from requests[socks]->gdown) (3.11)\nRequirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.12/dist-packages (from requests[socks]->gdown) (2.5.0)\nRequirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.12/dist-packages (from requests[socks]->gdown) (2025.10.5)\nRequirement already satisfied: PySocks!=1.5.7,>=1.5.6 in /usr/local/lib/python3.12/dist-packages (from requests[socks]->gdown) (1.7.1)\n/usr/local/lib/python3.12/dist-packages/gdown/__main__.py:140: FutureWarning: Option `--id` was deprecated in version 4.3.1 and will be removed in 5.0. You don't need to pass it anymore to use a file ID.\n  warnings.warn(\nDownloading...\nFrom: https://drive.google.com/uc?id=19FYxTXMop51l6aBpdAOoq-LZiSOuK6Qn\nTo: /content/alt_syllogisms.csv\n100% 89.8k/89.8k [00:00<00:00, 3.64MB/s]\n"
+  },
+  {
+    "cell": 2,
+    "text": "-rw-r--r-- 1 root root 88K Feb  6  2024 alt_syllogisms.csv\n"
+  },
+  {
+    "cell": 6,
+    "text": "Valid\n0    696\n1     72\nName: count, dtype: int64\n"
+  },
+  {
+    "cell": 9,
+    "text": "Some weights of BartForSequenceClassification were not initialized from the model checkpoint at facebook/bart-base and are newly initialized: ['classification_head.dense.bias', 'classification_head.dense.weight', 'classification_head.out_proj.bias', 'classification_head.out_proj.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n/tmp/ipython-input-4106442091.py:58: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.\n  trainer_bart = Trainer(\n"
+  },
+  {
+    "cell": 9,
+    "text": "BART-base metrics: {'model': 'facebook/bart-base', 'accuracy': 0.9090909090909091, 'f1_macro': 0.47619047619047616}\n"
+  },
+  {
+    "cell": 11,
+    "text": "Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']\nYou should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n/tmp/ipython-input-664394930.py:72: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.\n  trainer_rob = Trainer(\n"
+  },
+  {
+    "cell": 11,
+    "text": "RoBERTa-base metrics: {'eval_loss': 0.29941990971565247, 'eval_accuracy': 0.9090909090909091, 'eval_f1_macro': 0.47619047619047616, 'eval_runtime': 0.3458, 'eval_samples_per_second': 445.376, 'eval_steps_per_second': 8.676, 'epoch': 3.0}\n"
+  }
+]

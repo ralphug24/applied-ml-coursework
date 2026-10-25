@@ -1,0 +1,82 @@
+[
+  {
+    "cell": 0,
+    "text": "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n/content/drive/MyDrive\n"
+  },
+  {
+    "cell": 1,
+    "text": "/content/drive/MyDrive/Colab-Notebooks/CPSC-6300/Homework-12\n"
+  },
+  {
+    "cell": 11,
+    "text": "0    5\n1    5\n2    5\n3    6\n4    5\nName: quality, dtype: int64\n0    0\n1    0\n2    0\n3    1\n4    0\nName: quality, dtype: category\nCategories (3, int64): [0 < 1 < 2]\n"
+  },
+  {
+    "cell": 20,
+    "text": "/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.\n  warnings.warn(\n"
+  },
+  {
+    "cell": 20,
+    "text": "Coefficients: [[-7.12218028e-03  4.66338500e+00  4.29481153e-01 -6.60281900e-02\n   1.89546884e+00 -1.54511341e-02  6.21202711e-03  4.82369935e+00\n  -3.59989505e-01 -1.80806516e+00 -9.38902162e-01 -3.04718617e-01]\n [ 2.71205063e-02 -4.38014871e+00 -5.44483360e-01  4.92437146e-02\n  -1.63072770e+00  1.05822955e-02 -4.94206489e-03 -3.63285554e+00\n   4.06781181e-01  1.60108210e+00  6.74994667e-01  2.94992017e-01]\n [ 3.46480818e-02 -1.76747066e+00  7.84921242e-01  9.36840921e-02\n  -2.50474534e+00  2.25150771e-02 -7.34559254e-03 -8.53548858e+00\n   1.01156961e+00  3.39589105e-01  9.04507366e-01 -6.91610668e-01]]\nIntercepts: [ 4.84058278 -3.65750981 -8.54921251]\n"
+  },
+  {
+    "cell": 26,
+    "text": "/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:1917: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegressionCV(..)) instead. Leave it to its default value to avoid this warning.\n  warnings.warn(\n"
+  },
+  {
+    "cell": 31,
+    "text": "(5197, 2)\n"
+  },
+  {
+    "cell": 55,
+    "text": "Variance explained by each PCA component: [0.31657619 0.21142542]\nTotal Variance Explained: 0.5280016077339856\n"
+  },
+  {
+    "cell": 57,
+    "text": "/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.\n  warnings.warn(\n"
+  },
+  {
+    "cell": 58,
+    "text": "Train accuracy: 0.608043101789494\nTest accuracy: 0.6069230769230769\n"
+  },
+  {
+    "cell": 61,
+    "text": "Train PCA shape: (5197, 10)\nTest PCA shape: (1300, 10)\n"
+  },
+  {
+    "cell": 62,
+    "text": "Variance explained by each component:\n [0.31657619 0.21142542 0.13083329 0.08099387 0.06032249 0.05102768\n 0.04504901 0.0412853  0.02937533 0.02165742]\nCumulative variance explained:\n [0.31657619 0.52800161 0.65883489 0.73982876 0.80015126 0.85117894\n 0.89622794 0.93751324 0.96688857 0.98854598]\n"
+  },
+  {
+    "cell": 63,
+    "text": "Logistic Regression (10 PCs) \u2013 Train accuracy: 0.7109871079468925\nLogistic Regression (10 PCs) \u2013 Test accuracy: 0.7115384615384616\n"
+  },
+  {
+    "cell": 64,
+    "text": "Logistic Regression CV (10 PCs) \u2013 Train accuracy: 0.7104098518375986\nLogistic Regression CV (10 PCs) \u2013 Test accuracy: 0.7123076923076923\n"
+  },
+  {
+    "cell": 74,
+    "text": "[[ 3  3  2]\n [ 2  3 -2]]\n"
+  },
+  {
+    "cell": 76,
+    "text": "U:  [[-0.7815437 -0.6238505]\n [-0.6238505  0.7815437]]\nSingular array [5.54801894 2.86696457]\nV^{T} [[-0.64749817 -0.7599438  -0.05684667]\n [-0.10759258  0.16501062 -0.9804057 ]\n [-0.75443354  0.62869461  0.18860838]]\n"
+  },
+  {
+    "cell": 78,
+    "text": "(5197, 2)\n"
+  },
+  {
+    "cell": 83,
+    "text": "Variance explained by each SVD component: [0.31657619 0.21142542]\nTotal Variance Explained: 0.5280016077339869\n"
+  },
+  {
+    "cell": 87,
+    "text": "PCA(10) Logistic Regression \u2014 Train: 0.7109871079468925\nPCA(10) Logistic Regression \u2014 Test: 0.7115384615384616\n"
+  },
+  {
+    "cell": 89,
+    "text": "SVD(10) Logistic Regression \u2014 Train: 0.7109871079468925\nSVD(10) Logistic Regression \u2014 Test: 0.7115384615384616\n"
+  }
+]
