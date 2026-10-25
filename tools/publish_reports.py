@@ -28,7 +28,7 @@ def package():
             nbformat.v4.new_code_cell(f'from IPython.display import display, Image\nfor figure in sorted((ROOT / "reports/runs/{profile}/{task}").glob("*.png")):\n    display(Image(filename=str(figure)))')
         ],metadata={'kernelspec':{'name':'python3','display_name':'Python 3','language':'python'},'language_info':{'name':'python','version':'3.12'}})
         notebook_path=ROOT/'notebooks'/f'{task}.ipynb'
-        if not notebook_path.exists() or not any(c.get('execution_count') for c in nbformat.read(notebook_path,as_version=4).cells):
+        if not notebook_path.exists():
             nbformat.write(notebook,notebook_path)
     source=ROOT/'original/submissions/hw08.ipynb'
     original=json.loads(source.read_text(encoding='utf-8'))

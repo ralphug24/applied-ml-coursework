@@ -13900,7 +13900,18 @@
             "support": 154.0
           }
         },
-        "pretrained_commit": "aadd2ab0ae0c8268c7c9693540e9904811f36177"
+        "pretrained_commit": "aadd2ab0ae0c8268c7c9693540e9904811f36177",
+        "training_configuration": {
+          "num_train_epochs": 3,
+          "learning_rate": 2e-05,
+          "weight_decay": 0.01,
+          "per_device_train_batch_size": 16,
+          "per_device_eval_batch_size": 8,
+          "seed": 42,
+          "eval_strategy": "epoch",
+          "save_strategy": "no"
+        },
+        "training_configuration_source": "Completed checkpoint training_args.bin"
       },
       "FacebookAI/roberta-base": {
         "accuracy": 0.9090909090909091,
@@ -13942,7 +13953,18 @@
             "support": 154.0
           }
         },
-        "pretrained_commit": "e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+        "pretrained_commit": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+        "training_configuration": {
+          "num_train_epochs": 3,
+          "learning_rate": 2e-05,
+          "weight_decay": 0.01,
+          "per_device_train_batch_size": 16,
+          "per_device_eval_batch_size": 8,
+          "seed": 42,
+          "eval_strategy": "epoch",
+          "save_strategy": "no"
+        },
+        "training_configuration_source": "Completed checkpoint training_args.bin"
       }
     },
     "objective": "Two-class cross-entropy; pretrained weights fine-tuned with AdamW.",
