@@ -12,6 +12,16 @@ A connected collection of ten course assignments, from data preparation and clus
 
 I practiced preparing data, fitting and comparing models, choosing an objective for a task, and interpreting results beyond a single score. The coursework included guided exercises and supplied starter code. My submissions document my completed exercises and interpretations; the portable code in this repository makes the workflows easier to run and inspect.
 
+## Start here
+
+New to machine learning? Follow **[one small worked example with saved outputs](https://ralphugboko.dev/assets/coursework/applied-ml/start-here.html)**. It explains the inputs, training, model comparison, predictions and error scores without assuming course knowledge.
+
+- **Run in your browser:** [Open the beginner notebook in Google Colab](https://colab.research.google.com/github/ralphug24/applied-ml-coursework/blob/main/notebooks/START_HERE.ipynb), connect a runtime, then choose **Runtime → Run all**. A Google sign-in may be requested. No API key, GPU or local installation is needed for this example.
+- **Run locally or look up a term:** [Beginner setup, glossary and troubleshooting](docs/START_HERE.md).
+- **Inspect the code and actual outputs:** [START_HERE.ipynb](notebooks/START_HERE.ipynb).
+
+Start with this small regression example. The optional neural-network and transformer environments below are for later exploration.
+
 ## Run the code
 
 Use Python 3.12 and a virtual environment. Commands run from the repository root:
