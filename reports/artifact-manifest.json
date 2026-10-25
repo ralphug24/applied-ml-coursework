@@ -1,0 +1,132 @@
+[
+  {
+    "path": "data/hw03/goodreads.csv",
+    "bytes": 2372218,
+    "sha256": "077910ecc88113f7193cfa890743b3b60324db1a9504517c434c145b55882824"
+  },
+  {
+    "path": "data/hw05/multishapes.csv",
+    "bytes": 43777,
+    "sha256": "5de3dd7fefb126be97b882ab6e1e7957c9af4aac9f5bdc8d97baa6c40a16dd11"
+  },
+  {
+    "path": "data/hw06/boston_housing_test.csv",
+    "bytes": 5488,
+    "sha256": "f82d1162c126b63b444f3a2913f570eea7ecb3b2036eeb732e5db8a5a6d73c1a"
+  },
+  {
+    "path": "data/hw06/boston_housing_train.csv",
+    "bytes": 44100,
+    "sha256": "68a61b74c953ed713cea7569c194fbc02baaf840cef63505d92e1e2abe268007"
+  },
+  {
+    "path": "data/hw06/mtcars.csv",
+    "bytes": 1816,
+    "sha256": "1aab5ee22beaa433f2833650296ae3a5bbd30daf63b9f0529e0a3600ff8a106c"
+  },
+  {
+    "path": "data/hw07/Algerian_forest_fires_dataset_UPDATE-1.csv",
+    "bytes": 14735,
+    "sha256": "a0a13ac6d5b02dec46cabbb7a3b78205a474325a349b308ba2bea203b3ef890f"
+  },
+  {
+    "path": "data/hw07/OnlineNewsPopularity.csv",
+    "bytes": 24311769,
+    "sha256": "b66d9088632308cc27fa35af847650d174a5a50503987c4e511de94a99d1c218"
+  },
+  {
+    "path": "data/hw08/sinewaves_X_extended_test.npy",
+    "bytes": 72128,
+    "sha256": "d2a6d9a796c03a3184573ebb9335f86d49574d9017f73ba5bbbab96afeb7b5bb"
+  },
+  {
+    "path": "data/hw08/sinewaves_X_test.npy",
+    "bytes": 16000128,
+    "sha256": "87c2067ff61cc64511bf825e502fdda9d5e60d608ded320dde6a44199a419153"
+  },
+  {
+    "path": "data/hw08/sinewaves_X_train.npy",
+    "bytes": 80000128,
+    "sha256": "6ae3ec4d41573b052f8b538afc3ead15e6384608bd4f9f189a8a038c625c8737"
+  },
+  {
+    "path": "data/hw08/sinewaves_y_extended_test.npy",
+    "bytes": 416,
+    "sha256": "39dd56727cd3470f7cd97e640fac81eb768339bfb8f875071bbc730fd42ea2d2"
+  },
+  {
+    "path": "data/hw08/sinewaves_y_test.npy",
+    "bytes": 64128,
+    "sha256": "7f993bd1192be0530cf869652ad630b9bf4f512b445e7a30b8483dfdc0150d46"
+  },
+  {
+    "path": "data/hw08/sinewaves_y_train.npy",
+    "bytes": 320128,
+    "sha256": "0d8b2014a659e5e8e37ead8f24632ca43f75eb97bfd8cfc75d9cb0658c1a67e0"
+  },
+  {
+    "path": "data/hw10/alt_syllogisms.csv",
+    "bytes": 89806,
+    "sha256": "d70e95b60b54557fb63e37ace8b9c67a8dcf1a45c8d44983f628f3ad230a5078"
+  },
+  {
+    "path": "data/hw11/groceries-groceries.csv",
+    "bytes": 802870,
+    "sha256": "647a3682b3056ba11285e539b13146eecf7a27063491d4b09b4c531736d0a980"
+  },
+  {
+    "path": "data/hw12/wines.csv",
+    "bytes": 367721,
+    "sha256": "966ef8d32d70d17395b1010e73bdbe94643d86950f8f8ee44373ecc2d028ff23"
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 2374,
+    "sha256": "23276377a665da81d8748acd83068140996b4ec6581f6eec21ba41ea14067b44"
+  },
+  {
+    "path": "models/full/hw05/shapes-kmeans.joblib",
+    "bytes": 5175,
+    "sha256": "628a611dfea8d95803bb857caa3fa78a44c3bd17d369582eade2bd4c85fb1a8f"
+  },
+  {
+    "path": "models/full/hw06/regression.joblib",
+    "bytes": 3881089,
+    "sha256": "90de88110501ecc6a3d3ac9a71c9c934ffda8c9a0e79260922020e1aa8781e03"
+  },
+  {
+    "path": "models/full/hw07/fire-classifier.joblib",
+    "bytes": 1853,
+    "sha256": "693c5b47f2d1dde6fcb68c3719cfa60945758ac59c04f61591bf14b34967174a"
+  },
+  {
+    "path": "models/full/hw08/sinewave.keras",
+    "bytes": 1693724,
+    "sha256": "261c41e393f3f185eddf477876e377846acbce6c8e4dd65a9555d290daccd892"
+  },
+  {
+    "path": "models/full/hw09/cifar100-cnn.keras",
+    "bytes": 15619246,
+    "sha256": "bdd92b2311a06eba1751044eea38c40887e370761420c28915967fee5742b89b"
+  },
+  {
+    "path": "models/full/hw12/wine-pipeline.joblib",
+    "bytes": 2385,
+    "sha256": "717b6fc617b060bae82c4038b7730864d3db3f2f902bb385c7f8850f0036f6a4"
+  },
+  {
+    "path": "models/preview/hw05/shapes-kmeans.joblib",
+    "bytes": 5175,
+    "sha256": "628a611dfea8d95803bb857caa3fa78a44c3bd17d369582eade2bd4c85fb1a8f"
+  },
+  {
+    "path": "models/preview/hw09/cifar100-cnn.keras",
+    "bytes": 15619246,
+    "sha256": "a9aa8024cf256f8f061c925f1a2eb4a99f037c598e0e1ee849fdb0a5df6f13bc"
+  },
+  {
+    "path": "models/preview/hw09/reuters-lstm.keras",
+    "bytes": 17038168,
+    "sha256": "e3b463e52eda0054b5910e912d5439238e7740c91027c36a58800e9d7fb66abb"
+  }
+]

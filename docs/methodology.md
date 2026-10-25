@@ -21,6 +21,10 @@ A loss is what a learning algorithm optimizes. An evaluation metric tells us how
 
 The regression workflow compares all candidates on the same shuffled ten-fold partition of the 450 development observations. It selects the lowest mean MSE, refits on those development data, then loads and evaluates the supplied 56-row external test file. A preliminary 80/20 development split illustrates subset versus all-feature regression.
 
+The archived notebook's earlier linear-regression cross-validation used unshuffled folds; the later comparison used shuffled folds. That change affects the estimate, so differences between those stages cannot be attributed entirely to a better model. The portable comparison keeps the split policy fixed across candidates.
+
+R-squared also depends on the variation in the evaluation target: `R² = 1 - SSE/SST`. A relatively narrow test-target distribution can produce a lower R-squared even when MSE is close to the CV MSE. Report the test set and both metrics together instead of calling R-squared a percentage of predictions that were correct.
+
 The fire and wine classifiers use a held-out final split and training-only five-fold selection. Scalers and dimensionality reducers are inside the cross-validation pipeline. The fire split is a random classification exercise on recorded conditions; temporal and geographic generalization would need different split designs.
 
 The portable CIFAR workflow holds validation data out of the training set instead of repeatedly viewing the final test set during fitting. The transformer workflow uses development/validation/test partitions, removes exact repeated wording before splitting and avoids selecting checkpoints using test labels. It does not claim independence across logical forms: related syllogism templates can remain in different partitions.

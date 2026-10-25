@@ -1,0 +1,6 @@
+* text=auto eol=lf
+original/submissions/*.ipynb -text
+data/** -text
+*.png binary
+*.keras binary
+*.joblib binary

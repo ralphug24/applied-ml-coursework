@@ -1,0 +1,152 @@
+[
+  {
+    "task": "hw10",
+    "source_filename": "UGBOKO-Homework 10 Submission.ipynb",
+    "sha256": "d432f37b1eb6a4031b33fda48596f36f23982236253f3791fece7ac31fd4a5f2",
+    "public_path": "original/submissions/hw10.ipynb"
+  },
+  {
+    "task": "hw11",
+    "source_filename": "UGBOKO-Homework 11 Submission.ipynb",
+    "sha256": "972d32dd4abc59e0e955f92830263e8be2f2d8c8133fad27ae644d670acf8c51",
+    "public_path": "original/submissions/hw11.ipynb"
+  },
+  {
+    "task": "hw11",
+    "source_filename": "groceries-groceries.csv",
+    "sha256": "647a3682b3056ba11285e539b13146eecf7a27063491d4b09b4c531736d0a980",
+    "public_path": "data/hw11/groceries-groceries.csv"
+  },
+  {
+    "task": "hw12",
+    "source_filename": "UGBOKO-Homework 12 Submission.ipynb",
+    "sha256": "355c83160a8cc2618440ce8cc38f1a2024c314a0b14fd875ae66d38770b06799",
+    "public_path": "original/submissions/hw12.ipynb"
+  },
+  {
+    "task": "hw12",
+    "source_filename": "wines.csv",
+    "sha256": "966ef8d32d70d17395b1010e73bdbe94643d86950f8f8ee44373ecc2d028ff23",
+    "public_path": "data/hw12/wines.csv"
+  },
+  {
+    "task": "hw03",
+    "source_filename": "UGBOKO-Homework 3 Submission.ipynb",
+    "sha256": "23c0632ac7c6ecc5d083ae2423e42372bc664ac3e801d22edf62de5e8c6812e9",
+    "public_path": "original/submissions/hw03.ipynb"
+  },
+  {
+    "task": "hw03",
+    "source_filename": "goodreads.csv",
+    "sha256": "077910ecc88113f7193cfa890743b3b60324db1a9504517c434c145b55882824",
+    "public_path": "data/hw03/goodreads.csv"
+  },
+  {
+    "task": "hw04",
+    "source_filename": "UGBOKO-Homework 4 Submission.ipynb",
+    "sha256": "02a4aeed98588f162edc0f7d9ae6814296746da0d3a9074a390f8983f683ab6d",
+    "public_path": "original/submissions/hw04.ipynb"
+  },
+  {
+    "task": "hw05",
+    "source_filename": "UGBOKO-Homework 5 Submission.ipynb",
+    "sha256": "315c8d05f5564ec4dbd04506f97e800dfca60f85d1738864d1617ef328263c6a",
+    "public_path": "original/submissions/hw05.ipynb"
+  },
+  {
+    "task": "hw05",
+    "source_filename": "multishapes.csv",
+    "sha256": "5de3dd7fefb126be97b882ab6e1e7957c9af4aac9f5bdc8d97baa6c40a16dd11",
+    "public_path": "data/hw05/multishapes.csv"
+  },
+  {
+    "task": "hw06",
+    "source_filename": "UGBOKO-Homework 6 Submission.ipynb",
+    "sha256": "895fcdc93511efff91ccd86e974296f1825e035f46b30d9a929d2d665307a43b",
+    "public_path": "original/submissions/hw06.ipynb"
+  },
+  {
+    "task": "hw06",
+    "source_filename": "boston_housing_test.csv",
+    "sha256": "f82d1162c126b63b444f3a2913f570eea7ecb3b2036eeb732e5db8a5a6d73c1a",
+    "public_path": "data/hw06/boston_housing_test.csv"
+  },
+  {
+    "task": "hw06",
+    "source_filename": "boston_housing_train.csv",
+    "sha256": "68a61b74c953ed713cea7569c194fbc02baaf840cef63505d92e1e2abe268007",
+    "public_path": "data/hw06/boston_housing_train.csv"
+  },
+  {
+    "task": "hw06",
+    "source_filename": "mtcars.csv",
+    "sha256": "1aab5ee22beaa433f2833650296ae3a5bbd30daf63b9f0529e0a3600ff8a106c",
+    "public_path": "data/hw06/mtcars.csv"
+  },
+  {
+    "task": "hw07",
+    "source_filename": "UGBOKO-Homework 7 Submission.ipynb",
+    "sha256": "cf08562295d6a801b3f8009d52f179acaea35bd415a43d62b737dd0995d6c62a",
+    "public_path": "original/submissions/hw07.ipynb"
+  },
+  {
+    "task": "hw07",
+    "source_filename": "Algerian_forest_fires_dataset_UPDATE-1.csv",
+    "sha256": "a0a13ac6d5b02dec46cabbb7a3b78205a474325a349b308ba2bea203b3ef890f",
+    "public_path": "data/hw07/Algerian_forest_fires_dataset_UPDATE-1.csv"
+  },
+  {
+    "task": "hw07",
+    "source_filename": "OnlineNewsPopularity.csv",
+    "sha256": "b66d9088632308cc27fa35af847650d174a5a50503987c4e511de94a99d1c218",
+    "public_path": "data/hw07/OnlineNewsPopularity.csv"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "UGBOKO-Homework 8 Submission.ipynb",
+    "sha256": "202eca8839c2f0f9d5be0f21673e2c0775efe1e0cf07c3296a7f7ab352cceae6",
+    "public_path": "original/submissions/hw08.ipynb"
+  },
+  {
+    "task": "hw09",
+    "source_filename": "UGBOKO-Homework 9 Submission.ipynb",
+    "sha256": "fd38ab837a42ff6980453b481ccbebd6e1eef1ad8bbfc2a7524d778f085d5c7c",
+    "public_path": "original/submissions/hw09.ipynb"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "sinewaves_X_extended_test.npy",
+    "sha256": "d2a6d9a796c03a3184573ebb9335f86d49574d9017f73ba5bbbab96afeb7b5bb",
+    "public_path": "data/hw08/sinewaves_X_extended_test.npy"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "sinewaves_X_test.npy",
+    "sha256": "87c2067ff61cc64511bf825e502fdda9d5e60d608ded320dde6a44199a419153",
+    "public_path": "data/hw08/sinewaves_X_test.npy"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "sinewaves_X_train.npy",
+    "sha256": "6ae3ec4d41573b052f8b538afc3ead15e6384608bd4f9f189a8a038c625c8737",
+    "public_path": "data/hw08/sinewaves_X_train.npy"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "sinewaves_y_extended_test.npy",
+    "sha256": "39dd56727cd3470f7cd97e640fac81eb768339bfb8f875071bbc730fd42ea2d2",
+    "public_path": "data/hw08/sinewaves_y_extended_test.npy"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "sinewaves_y_test.npy",
+    "sha256": "7f993bd1192be0530cf869652ad630b9bf4f512b445e7a30b8483dfdc0150d46",
+    "public_path": "data/hw08/sinewaves_y_test.npy"
+  },
+  {
+    "task": "hw08",
+    "source_filename": "sinewaves_y_train.npy",
+    "sha256": "0d8b2014a659e5e8e37ead8f24632ca43f75eb97bfd8cfc75d9cb0658c1a67e0",
+    "public_path": "data/hw08/sinewaves_y_train.npy"
+  }
+]
